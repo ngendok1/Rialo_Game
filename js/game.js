@@ -70,7 +70,7 @@ const Game = {
         // Update quest
         document.getElementById('quest').innerHTML = `
             <strong>Quest:</strong><br>
-            Kumpulkan ${this.heartsCollected}/${this.heartsNeeded} hati untuk menyembuhkan!
+            Collect ${this.heartsCollected}/${this.heartsNeeded} hearts to heal!
         `;
     },
     
